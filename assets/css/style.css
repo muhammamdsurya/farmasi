@@ -1,0 +1,190 @@
+:root {
+  --color-text: #eef2e6;
+  --sec-color: #d6cda4;
+  --nav-color: #3d8361;
+  --bg-color: #1c6758;
+}
+
+.bg-color {
+  background-color: var(--nav-color) !important;
+}
+
+.sec-text,
+.nav-link.active {
+  color: var(--sec-color) !important;
+}
+
+.first-text,
+.nav-link {
+  font-family: "Kanit", sans-serif;
+  color: var(--color-text) !important;
+}
+
+.navbar-brand {
+  color: var(--sec-color) !important;
+}
+
+.paragraf {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-heading {
+  font-family: "Kanit", sans-serif;
+  color: var(--bg-color);
+}
+
+.border.border-primary {
+  border-color: var(--sec-color) !important;
+}
+
+table {
+  background-color: var(--bg-color) !important;
+  color: white !important;
+}
+
+.form-control.search {
+  width: 400px;
+}
+
+.button {
+  margin-top: 8rem;
+}
+
+.btn-primary {
+  background-color: var(--sec-color) !important;
+  color: var(--color-text) !important;
+  border: none !important;
+  transition: 0.3s all ease !important;
+}
+
+.btn-primary:hover {
+  background-color: #cfc38f !important;
+  box-shadow: 1px 2px 2px 2px #888888;
+  color: white !important;
+  scale: 1.1;
+}
+
+.btn-success {
+  background-color: var(--bg-color) !important;
+  color: var(--color-text) !important;
+  border: none !important;
+  transition: 0.3s all ease !important;
+}
+
+.btn-success:hover {
+  background-color: #155246 !important;
+  box-shadow: 1px 2px 2px 2px #888888;
+  color: var(--color-text) !important;
+  scale: 1.1;
+}
+
+.btn-light {
+  background-color: white;
+  color: var(--bg-color) !important;
+  border: none !important;
+  transition: 0.3s all ease !important;
+}
+
+.btn-light:hover {
+  background-color: #d6d6d6 !important;
+  box-shadow: 1px 2px 2px 2px #888888;
+  color: black !important;
+  scale: 1.1;
+}
+
+body {
+  background-color: var(--bg-color) !important;
+}
+
+.footer {
+  padding: 2rem;
+}
+
+.list-footer {
+  list-style: none;
+}
+
+.list-footer li {
+  margin: 10px 0;
+}
+
+.list-footer a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+/* <-- login --> */
+.login {
+  background: var(--sec-color);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.center {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.center-beranda {
+  width: 70%;
+}
+
+.center-beranda .image {
+  height: 60%;
+}
+
+.divider {
+  margin: 0 auto;
+  width: 400px;
+  border-bottom: 3px solid rgb(255, 255, 255); /* Ubah ketebalan dan warna garis sesuai keinginan Anda */
+}
+
+.form-control.password {
+  width: 50%;
+}
+
+.form-control.input-captha {
+  width: 50%;
+}
+
+/* <-- daftar akun --> */
+.daftar {
+  background: var(--sec-color);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form-control.input-nama {
+  width: 355px;
+}
+
+.form-control.nama {
+  width: 355px;
+}
+
+.form-control.pass {
+  width: 47%;
+}
+
+/* <-- lupa password --> */
+.lupa {
+  background: var(--sec-color);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form-control.kode {
+  width: 50%;
+}
+
+.form-control.pass {
+  width: 50%;
+}
